@@ -1,0 +1,88 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Explore the rich sounds of Poland with Radio Polonia FM, where you can access UK news, weather updates, and captivating music.",
+          "examplePhrases": [
+            "Alexa Open Polonia f. m.",
+            "Alexa Play Polonia f. m."
+          ],
+          "keywords": [
+            "polonia",
+            "f.",
+            "m.",
+            "polonia",
+            "f.m.",
+            "radio"
+          ],
+          "name": "Polonia FM",
+          "description": "Immerse yourself in the diverse world of Polish culture and entertainment with Radio Polonia FM.\n\nStay informed about the latest developments with up-to-the-minute news updates tailored to your preferences. Whether you\u0027re interested in local, national, or international news, Alexa and Radio Polonia FM have you covered.\n\nWith Alexa and Radio Polonia FM, it\u0027s not just about listening; it\u0027s about engaging. Stay connected to Polish culture, news, and music effortlessly.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "Radio Polonia FM.",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}",
+      "category": "MUSIC_AND_AUDIO_ACCESSORIES",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "GB",
+        "PL",
+        "PK"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:366352071320:function:3446a5d1-ae99-4ad5-9a35-4a2b85a558a6:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:366352071320:function:3446a5d1-ae99-4ad5-9a35-4a2b85a558a6:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:366352071320:function:3446a5d1-ae99-4ad5-9a35-4a2b85a558a6:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:366352071320:function:3446a5d1-ae99-4ad5-9a35-4a2b85a558a6:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://poloniafm.co.uk/terms-and-conditions/",
+          "privacyPolicyUrl": "https://poloniafm.co.uk/privacy-policy/"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
